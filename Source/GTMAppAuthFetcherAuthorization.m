@@ -321,7 +321,7 @@ NSString *const GTMAppAuthFetcherAuthorizationErrorRequestKey = @"request";
     // Processes queue.
     @synchronized(_authorizationQueue) {
       for (GTMAppAuthFetcherAuthorizationArgs *fetcherArgs in _authorizationQueue) {
-        [self authorizeRequestImmediateArgs:fetcherArgs accessToken:accessToken error:error];
+        [self authorizeRequestImmediateArgs:fetcherArgs accessToken:idToken error:error];
       }
       [_authorizationQueue removeAllObjects];
     }
