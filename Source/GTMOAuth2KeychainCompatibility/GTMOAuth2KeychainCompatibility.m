@@ -18,12 +18,7 @@
 
 #import "GTMOAuth2KeychainCompatibility.h"
 
-#ifndef GTMAPPAUTH_USER_IMPORTS
-#import <AppAuth/AppAuth.h>
-#else // GTMAPPAUTH_USER_IMPORTS
 #import "AppAuth.h"
-#endif // GTMAPPAUTH_USER_IMPORTS
-
 #import "GTMKeychain.h"
 
 // standard OAuth keys
@@ -121,6 +116,7 @@ static NSString *const kGTMOAuth2ServiceProviderGoogle = @"Google";
                                                  redirectURL:redirectURI
                                                 responseType:OIDResponseTypeCode
                                                        state:nil
+                                                       nonce:nil
                                                 codeVerifier:nil
                                                codeChallenge:nil
                                          codeChallengeMethod:nil
