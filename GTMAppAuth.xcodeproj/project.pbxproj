@@ -125,6 +125,69 @@
 			remoteGlobalIDString = 348970972177B3B000ABEED4;
 			remoteInfo = AppAuthCoreTests;
 		};
+		23621D1821C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4FA025621BB21EAB00BB255C;
+			remoteInfo = GTMSessionFetcherOSX;
+		};
+		23621D1A21C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F34A21B187CCBB50012E91E;
+			remoteInfo = FetcherOSXTestApp;
+		};
+		23621D1C21C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F5566C81862981000D6D62C;
+			remoteInfo = FetcherMacTests;
+		};
+		23621D1E21C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4FEE14271BB22328002ACBF8;
+			remoteInfo = GTMSessionFetcherIOS;
+		};
+		23621D2021C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8EC5668D18AAFB1200E2C97D;
+			remoteInfo = FetcheriOSTestApp;
+		};
+		23621D2221C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8EC566A518AAFB1200E2C97D;
+			remoteInfo = FetcheriOSTests;
+		};
+		23621D2421C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4A872031DA3EACE00D69E09;
+			remoteInfo = GTMSessionFetchertvOS;
+		};
+		23621D2621C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4A8721D1DA3EDE700D69E09;
+			remoteInfo = FetchertvOSTests;
+		};
+		23621D2821C6DD7600E17B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F4B18F811F0EC6C200E55018;
+			remoteInfo = GTMSessionFetcherwatchOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -134,6 +197,7 @@
 		23621CA421C6D39400E17B30 /* AppAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppAuth.xcodeproj; path = "Carthage/Checkouts/AppAuth-iOS/AppAuth.xcodeproj"; sourceTree = "<group>"; };
 		23621CF721C6D3E100E17B30 /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcherIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23621CF921C6D7A900E17B30 /* GTMSessionFetcherIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcherIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTMSessionFetcherCore.xcodeproj; path = "Carthage/Checkouts/gtm-session-fetcher/Source/GTMSessionFetcherCore.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +216,7 @@
 		23621C8F21C6D2ED00E17B30 = {
 			isa = PBXGroup;
 			children = (
+				23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */,
 				23621C9B21C6D2ED00E17B30 /* GTMAppAuth */,
 				23621C9A21C6D2ED00E17B30 /* Products */,
 				23621CA421C6D39400E17B30 /* AppAuth.xcodeproj */,
@@ -206,6 +271,22 @@
 				23621CF721C6D3E100E17B30 /* GTMSessionFetcherIOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23621CFD21C6DD7500E17B30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23621D1921C6DD7600E17B30 /* GTMSessionFetcherOSX.framework */,
+				23621D1B21C6DD7600E17B30 /* FetcherOSXTestApp.app */,
+				23621D1D21C6DD7600E17B30 /* FetcherMacTests.xctest */,
+				23621D1F21C6DD7600E17B30 /* GTMSessionFetcherIOS.framework */,
+				23621D2121C6DD7600E17B30 /* FetcheriOSTestApp.app */,
+				23621D2321C6DD7600E17B30 /* FetcheriOSTests.xctest */,
+				23621D2521C6DD7600E17B30 /* GTMSessionFetchertvOS.framework */,
+				23621D2721C6DD7600E17B30 /* FetchertvOSTests.xctest */,
+				23621D2921C6DD7600E17B30 /* GTMSessionFetcherwatchOS.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +349,10 @@
 				{
 					ProductGroup = 23621CA521C6D39400E17B30 /* Products */;
 					ProjectRef = 23621CA421C6D39400E17B30 /* AppAuth.xcodeproj */;
+				},
+				{
+					ProductGroup = 23621CFD21C6DD7500E17B30 /* Products */;
+					ProjectRef = 23621CFC21C6DD7500E17B30 /* GTMSessionFetcherCore.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -388,6 +473,69 @@
 			fileType = wrapper.cfbundle;
 			path = AppAuthCoreTests.xctest;
 			remoteRef = 23621CD521C6D39500E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D1921C6DD7600E17B30 /* GTMSessionFetcherOSX.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcherOSX.framework;
+			remoteRef = 23621D1821C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D1B21C6DD7600E17B30 /* FetcherOSXTestApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FetcherOSXTestApp.app;
+			remoteRef = 23621D1A21C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D1D21C6DD7600E17B30 /* FetcherMacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FetcherMacTests.xctest;
+			remoteRef = 23621D1C21C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D1F21C6DD7600E17B30 /* GTMSessionFetcherIOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcherIOS.framework;
+			remoteRef = 23621D1E21C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D2121C6DD7600E17B30 /* FetcheriOSTestApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FetcheriOSTestApp.app;
+			remoteRef = 23621D2021C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D2321C6DD7600E17B30 /* FetcheriOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FetcheriOSTests.xctest;
+			remoteRef = 23621D2221C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D2521C6DD7600E17B30 /* GTMSessionFetchertvOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetchertvOS.framework;
+			remoteRef = 23621D2421C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D2721C6DD7600E17B30 /* FetchertvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FetchertvOSTests.xctest;
+			remoteRef = 23621D2621C6DD7600E17B30 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		23621D2921C6DD7600E17B30 /* GTMSessionFetcherwatchOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTMSessionFetcherwatchOS.framework;
+			remoteRef = 23621D2821C6DD7600E17B30 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
