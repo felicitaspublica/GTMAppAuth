@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/gtm-session-fetcher"]
+	path = Carthage/Checkouts/gtm-session-fetcher
+	url = https://github.com/google/gtm-session-fetcher.git
+[submodule "Carthage/Checkouts/AppAuth-iOS"]
+	path = Carthage/Checkouts/AppAuth-iOS
+	url = https://github.com/openid/AppAuth-iOS.git
