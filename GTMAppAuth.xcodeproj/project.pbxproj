@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		23621C9E21C6D2ED00E17B30 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621C9C21C6D2ED00E17B30 /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23621D5F21C6E04300E17B30 /* GTMTVServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D4B21C6E04300E17B30 /* GTMTVServiceConfiguration.m */; };
-		23621D6021C6E04300E17B30 /* GTMTVAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D4C21C6E04300E17B30 /* GTMTVAuthorizationResponse.h */; };
+		23621D6021C6E04300E17B30 /* GTMTVAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D4C21C6E04300E17B30 /* GTMTVAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23621D6121C6E04300E17B30 /* GTMTVAuthorizationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D4D21C6E04300E17B30 /* GTMTVAuthorizationService.m */; };
-		23621D6221C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D4E21C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.h */; };
-		23621D6321C6E04300E17B30 /* GTMTVAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D4F21C6E04300E17B30 /* GTMTVAuthorizationRequest.h */; };
+		23621D6221C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D4E21C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23621D6321C6E04300E17B30 /* GTMTVAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D4F21C6E04300E17B30 /* GTMTVAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23621D6421C6E04300E17B30 /* GTMAppAuthFetcherAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5021C6E04300E17B30 /* GTMAppAuthFetcherAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23621D6521C6E04300E17B30 /* GTMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5121C6E04300E17B30 /* GTMKeychain.h */; };
+		23621D6521C6E04300E17B30 /* GTMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5121C6E04300E17B30 /* GTMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23621D6621C6E04300E17B30 /* GTMKeychain_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D5321C6E04300E17B30 /* GTMKeychain_iOS.m */; };
 		23621D6721C6E04300E17B30 /* GTMTVAuthorizationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D5421C6E04300E17B30 /* GTMTVAuthorizationResponse.m */; };
-		23621D6821C6E04300E17B30 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5521C6E04300E17B30 /* GTMAppAuth.h */; };
-		23621D6921C6E04300E17B30 /* GTMTVServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5621C6E04300E17B30 /* GTMTVServiceConfiguration.h */; };
+		23621D6821C6E04300E17B30 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5521C6E04300E17B30 /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23621D6921C6E04300E17B30 /* GTMTVServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5621C6E04300E17B30 /* GTMTVServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23621D6A21C6E04300E17B30 /* GTMTVAuthorizationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D5721C6E04300E17B30 /* GTMTVAuthorizationRequest.m */; };
 		23621D6B21C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D5821C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.m */; };
-		23621D6C21C6E04400E17B30 /* GTMTVAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5921C6E04300E17B30 /* GTMTVAuthorizationService.h */; };
-		23621D6D21C6E04400E17B30 /* GTMOAuth2KeychainCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5B21C6E04300E17B30 /* GTMOAuth2KeychainCompatibility.h */; };
+		23621D6C21C6E04400E17B30 /* GTMTVAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5921C6E04300E17B30 /* GTMTVAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23621D6D21C6E04400E17B30 /* GTMOAuth2KeychainCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 23621D5B21C6E04300E17B30 /* GTMOAuth2KeychainCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23621D6E21C6E04400E17B30 /* GTMOAuth2KeychainCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D5C21C6E04300E17B30 /* GTMOAuth2KeychainCompatibility.m */; };
 		23621D6F21C6E04400E17B30 /* GTMAppAuthFetcherAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 23621D5D21C6E04300E17B30 /* GTMAppAuthFetcherAuthorization.m */; };
 		23621D8521C6F17400E17B30 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23621D8321C6F17400E17B30 /* AppAuth.framework */; };
@@ -381,9 +381,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23621D6421C6E04300E17B30 /* GTMAppAuthFetcherAuthorization.h in Headers */,
 				23621D6221C6E04300E17B30 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */,
 				23621D6321C6E04300E17B30 /* GTMTVAuthorizationRequest.h in Headers */,
+				23621D6421C6E04300E17B30 /* GTMAppAuthFetcherAuthorization.h in Headers */,
 				23621D6521C6E04300E17B30 /* GTMKeychain.h in Headers */,
 				23621D6D21C6E04400E17B30 /* GTMOAuth2KeychainCompatibility.h in Headers */,
 				23621D6921C6E04300E17B30 /* GTMTVServiceConfiguration.h in Headers */,
